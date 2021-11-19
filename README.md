@@ -2,7 +2,7 @@
 
 Essa solução facilita a validação de um ou vários CPF, isso é útil para analisar uma base de clientes para identificar CPFs cadastrados de maneira equivocada ou para qualquer outra finalidade onde seja necessário saber se o CPF é válido ou não. 
 
-Temos uma função chamada ````ValidaCPF```` dentro do módulo ````ferramentas````, onde é necessário importar o módulo ````ferramentas```` no seu código principal, chamar a função ````ValidaCPF```` e passar como parâmetro uma string de números com 11 posições, lembre-se de adicionar os zeros à esquerda. 
+Temos uma função chamada **ValidaCPF** dentro do módulo [**ferramentas**](ferramentas/__init__.py), onde é necessário importar o módulo ````ferramentas```` no seu código principal, chamar a função ````ValidaCPF```` e passar como parâmetro uma string de números com 11 posições, lembre-se de adicionar os zeros à esquerda. 
 
 A função retornará ````True```` para um CPF válido ou ````False````.
 
@@ -15,7 +15,7 @@ A função retornará ````True```` para um CPF válido ou ````False````.
 
 from ferramentas import ValidaCPF
 
-cpf = ValidaCPF(‘00000000191’)
+cpf = ValidaCPF('00000000191')
 
 print(cpf)
 
@@ -27,4 +27,4 @@ Essa função pode ser utilizada para validações pontuais ou se implementada e
 ### Licença:
 [Leia sobre a licença aplicada a esse Software.](LICENSE)
 
-**Referências:**  <br/><font size="2">Macoratti.net, **Algoritmo de Validação do CPF.** Disponível em: <http://www.macoratti.net/alg_cpf.htm>. Acesso em: 01 nov. 2021.  <br/></font>
+**Referências:**  <br/><font size="1">Macoratti.net, **Algoritmo de Validação do CPF.** Disponível em: <http://www.macoratti.net/alg_cpf.htm>. Acesso em: 01 nov. 2021.  <br/></font>
