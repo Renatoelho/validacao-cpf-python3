@@ -2,7 +2,7 @@
 
 from ferramentas import ValidaCPF
 
-cpf = ValidaCPF(‘00000000191’)
+cpf = ValidaCPF('00000000191')
 
 print(cpf)
 

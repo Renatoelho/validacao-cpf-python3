@@ -4,7 +4,7 @@
 __version__ = '1.0.0'
 
 
-def ValidaCPF(numcpf):
+def ValidaCPF(num):
 
     if len(num) == 11:
         radical = list(num)[:-2]
