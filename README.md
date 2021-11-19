@@ -2,7 +2,7 @@
 
 Essa solução facilita a validação de um ou vários CPF, isso é útil para analisar uma base de clientes para identificar CPFs cadastrados de maneira equivocada ou para qualquer outra finalidade onde seja necessário saber se o CPF é válido ou não. 
 
-Temos uma função chamada **ValidaCPF** dentro do módulo [**ferramentas**](ferramentas/__init__.py), onde é necessário importar o módulo ````ferramentas```` no seu código principal, chamar a função ````ValidaCPF```` e passar como parâmetro uma string de números com 11 posições, lembre-se de adicionar os zeros à esquerda. 
+Temos uma função chamada **ValidaCPF** dentro do módulo [**ferramentas**](ferramentas/__init__.py), para utilizar essa funcionalidade é necessário importar o módulo ````ferramentas```` no seu código principal, chamar a função ````ValidaCPF```` e passar como parâmetro uma string de números com 11 posições, lembre-se de adicionar os zeros à esquerda. 
 
 A função retornará ````True```` para um CPF válido ou ````False````.
 
